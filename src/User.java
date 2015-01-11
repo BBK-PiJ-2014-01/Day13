@@ -24,4 +24,17 @@ public interface User {
      */
     void setLibraryID(int number);
 
+    /**
+     * Registers a user to a library
+     *
+     * @param library the library
+     */
+    void register(Library library);
+
+    /**
+     * Registers a user to a library
+     *
+     * @return library the library
+     */
+    Library getLibrary();
 }

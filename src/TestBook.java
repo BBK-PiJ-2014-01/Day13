@@ -12,7 +12,7 @@ public class TestBook {
         Book b = new BookImpl("The Lord of the Rings", "JRR Tolkien");
         String output = b.getTitle();
         String expected = "The Lord of the Rings";
-        assertEquals(output, expected);
+        assertEquals(expected, output);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class TestBook {
         Book b = new BookImpl("The Lord of the Rings", "JRR Tolkien");
         String output = b.getAuthor();
         String expected = "JRR Tolkien";
-        assertEquals(output, expected);
+        assertEquals(expected, output);
     }
 
 }
