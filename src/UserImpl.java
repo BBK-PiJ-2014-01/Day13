@@ -25,4 +25,11 @@ public class UserImpl implements User{
         libraryID = number;
     }
 
+    @Override
+    public int register(Library libraryName) {
+        return(5);
+    }
+
+
+
 }
